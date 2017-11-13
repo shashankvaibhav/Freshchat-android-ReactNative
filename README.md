@@ -1,2 +1,2 @@
-# Freshchat---ReactNative
+# Freshchat android - ReactNative
 Freshchat library for React native. Currently it supports android only.
