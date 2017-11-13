@@ -1,0 +1,27 @@
+{
+  "name": "react-native-android-library-freshchat-sdk",
+  "version": "2.0.0",
+  "author": "Shashank Vaibhav",
+  "private": false,
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "keywords": [
+    "react-native",
+    "android",
+    "library"
+  ],
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.38.0"
+  }
+}

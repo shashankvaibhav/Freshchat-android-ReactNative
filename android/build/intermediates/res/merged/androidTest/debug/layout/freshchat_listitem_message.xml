@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/freshchat_message_root"
+    style="?attr/freshchatMessageListItemStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/freshchat_message_item_margin">
+
+    <ImageView
+        android:id="@+id/freshchat_message_avatar"
+        android:layout_width="@dimen/freshchat_message_avatar_icon_size"
+        android:layout_height="@dimen/freshchat_message_avatar_icon_size"
+        android:layout_below="@+id/freshchat_message_user_name" />
+
+    <TextView
+        android:id="@+id/freshchat_message_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/freshchat_message_avatar"
+        android:lines="1"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/freshchat_default_agent_name"
+        android:textAppearance="?attr/freshchatAgentNameTextAppearance"
+        tools:text="@string/freshchat_default_agent_name" />
+
+    <RelativeLayout
+        android:id="@+id/freshchat_message_content_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/freshchat_message_user_name"
+        android:layout_toRightOf="@+id/freshchat_message_avatar"
+        android:background="?attr/freshchatChatBubbleLeft">
+
+        <LinearLayout
+            android:id="@+id/freshchat_message_fragment_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/freshchat_message_item_min_width"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/freshchat_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/freshchat_message_fragment_wrapper"
+            android:layout_below="@+id/freshchat_message_fragment_wrapper"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingBottom="0dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="0dp"
+            tools:text="@string/tools_label_duration" />
+
+        <ImageView
+            android:id="@+id/freshchat_message_upload_status"
+            android:layout_width="@dimen/freshchat_message_upload_status_icon_size"
+            android:layout_height="@dimen/freshchat_message_upload_status_icon_size"
+            android:layout_alignBottom="@id/freshchat_message_time"
+            android:layout_alignParentBottom="true"
+            android:layout_alignTop="@id/freshchat_message_time"
+            android:layout_toRightOf="@id/freshchat_message_time"
+            android:contentDescription="@string/freshchat_content_description_upload_status"
+            android:paddingLeft="@dimen/freshchat_message_upload_status_icon_padding"
+            android:paddingRight="@dimen/freshchat_message_upload_status_icon_padding"
+            android:src="@drawable/freshchat_ic_message_status_pending"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</RelativeLayout>

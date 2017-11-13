@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:freshchatapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/freshchat_menu_item_toggle_speakerphone"
+        android:title="@string/freshchat_menu_item_toggle_speaker"
+        android:visible="false"
+        freshchatapp:showAsAction="always" />
+
+</menu>
+

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/res/merged/androidTest/debug/menu/freshchat_categories_list.xml",
+        "source": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/exploded-aar/com.github.freshdesk/freshchat-android/1.0.0/res/menu/freshchat_categories_list.xml"
+    },
+    {
+        "merged": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/res/merged/androidTest/debug/menu/freshchat_articles_list.xml",
+        "source": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/exploded-aar/com.github.freshdesk/freshchat-android/1.0.0/res/menu/freshchat_articles_list.xml"
+    },
+    {
+        "merged": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/res/merged/androidTest/debug/menu/freshchat_conversation_detail.xml",
+        "source": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/exploded-aar/com.github.freshdesk/freshchat-android/1.0.0/res/menu/freshchat_conversation_detail.xml"
+    },
+    {
+        "merged": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/res/merged/androidTest/debug/menu/freshchat_article_detail_list.xml",
+        "source": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/exploded-aar/com.github.freshdesk/freshchat-android/1.0.0/res/menu/freshchat_article_detail_list.xml"
+    }
+]

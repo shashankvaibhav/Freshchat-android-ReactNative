@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/res/merged/debug/xml/freshchat_file_provider_paths.xml",
+        "source": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/exploded-aar/com.github.freshdesk/freshchat-android/1.0.0/res/xml/freshchat_file_provider_paths.xml"
+    },
+    {
+        "merged": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/shashankvaibhav/Desktop/react-native-android-library-freshchat-sdk/android/build/intermediates/exploded-aar/com.facebook.react/react-native/0.20.1/res/xml/preferences.xml"
+    }
+]

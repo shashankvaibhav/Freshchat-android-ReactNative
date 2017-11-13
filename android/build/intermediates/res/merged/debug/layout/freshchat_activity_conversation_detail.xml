@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <include
+        android:id="@+id/freshchat_conversation_banner_message_text"
+        layout="@layout/freshchat_partial_conversation_banner_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/freshchat_conv_detail_list"
+        style="?attr/freshchatMessageListStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/freshchat_conv_detail_divider"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/freshchat_conversation_banner_message_text" />
+
+    <View
+        android:id="@+id/freshchat_conv_detail_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/freshchat_conv_detail_text_reply_layout"
+        android:layout_alignWithParentIfMissing="true"
+        android:background="@color/freshchat_message_list_reply_view_divider" />
+
+    <include
+        layout="@layout/freshchat_partial_text_message_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/freshchat_conv_detail_voice_reply_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/freshchat_partial_voice_message_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/freshchat_chat_resolution_confirmation_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/freshchat_partial_chat_resolution_confirmation_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

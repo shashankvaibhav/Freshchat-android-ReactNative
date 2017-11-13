@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/freshchat_custsurvey_question_text"
+        style="?attr/freshchatCustomerSurveyQuestionStyle" />
+
+    <RatingBar
+        android:id="@+id/freshchat_custsurvey_rating_bar"
+        style="?attr/freshchatCustomerSurveyRatingBarStyle"
+        android:numStars="5"
+        android:stepSize="1" />
+
+    <EditText
+        android:id="@+id/freshchat_custsurvey_user_comment"
+        style="?attr/freshchatCustomerSurveyCommentsEditTextStyle" />
+</LinearLayout>
