@@ -21,13 +21,13 @@ compile project(':react-native-android-library-freshchat-sdk') compile 'com.gith
 4 - In build.gradle(project) 
 ```ruby
 allprojects {
-&nbsp; &nbsp;   repositories {
-&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;       mavenLocal()
-&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;       jcenter()
-&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;       maven {
- &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;maven { url "https://jitpack.io" }
-&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;       }
-&nbsp; &nbsp;   }
+  repositories {
+    mavenLocal()
+    jcenter()
+    maven {
+     maven { url "https://jitpack.io" }
+    }
+  }
 }
 ```
 
