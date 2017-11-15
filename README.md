@@ -15,7 +15,8 @@ project(':react-native-android-library-freshchat-sdk').projectDir = new File(set
 
 3 - In build.gradle(app) 
 ```ruby
-compile project(':react-native-android-library-freshchat-sdk') compile 'com.github.freshdesk:freshchat-android:1.0.0'
+compile project(':react-native-android-library-freshchat-sdk') 
+compile 'com.github.freshdesk:freshchat-android:1.0.0'
 ```
 
 4 - In build.gradle(project) 
@@ -49,7 +50,7 @@ FreshChatSdk.initWithUser(appId,appkey,user unique id,firstname,lastname,email,m
 ```
 ### Without user details -
 ```ruby
-FreshChatSdk.initWithUser(appId,appkey)
+FreshChatSdk.init(appId,appkey)
 ```
 
 8 - For calling faqs
