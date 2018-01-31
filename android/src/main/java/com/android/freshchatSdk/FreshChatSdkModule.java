@@ -41,7 +41,6 @@ public class FreshChatSdkModule extends ReactContextBaseJavaModule {
         FreshchatUser user = Freshchat.getInstance(getReactApplicationContext()).getUser();
         user.setFirstName(firstName).setLastName(lastName).setEmail(email).setPhone(countryCode,phone).setExternalId(userId);
         Freshchat.getInstance(getReactApplicationContext()).setUser(user);
-
     }
 
     @ReactMethod
@@ -54,4 +53,14 @@ public class FreshChatSdkModule extends ReactContextBaseJavaModule {
         Freshchat.showConversations(getReactApplicationContext());
     }
 
+    @ReactMethod
+    public void resetUser() {
+        Freshchat.resetUser(getReactApplicationContext());
+    }
+
+    @ReactMethod
+    public void getRestoreId() {
+        String restoreId = Freshchat.getInstance(getReactApplicationContext()).getUser().getRestoreId();
+        return restoreId;
+    }
 }
