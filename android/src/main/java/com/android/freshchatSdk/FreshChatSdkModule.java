@@ -51,7 +51,7 @@ public class FreshChatSdkModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void showConversations() {
-        Freshchat.showFAQs(getReactApplicationContext());
+        Freshchat.showConversations(getReactApplicationContext());
     }
 
 }
