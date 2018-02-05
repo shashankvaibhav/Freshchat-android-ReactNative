@@ -60,6 +60,17 @@ FreshChatSdk.showFAQs()
 
 9 - For calling conversations
 ```ruby
-FreshChatSdk.showConversations()
+FreshChatSdk.showConversations(null)
+```
+
+
+10 - For calling conversations with tags
+```ruby
+FreshChatSdk.showConversations('ENTER_YOUR_TAG_HERE')
+```
+
+11 - For reseting the user
+```ruby
+FreshChatSdk.resetUser()
 ```
 
