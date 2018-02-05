@@ -1,27 +1,50 @@
 {
-  "name": "react-native-android-library-freshchat-sdk",
-  "version": "2.0.0",
-  "author": "Shashank Vaibhav",
-  "private": false,
-  "license": "Unlicense",
-  "repository": {
+  "_from": "git+https://github.com/pragadeesh0106/Freshchat-android-ReactNative.git",
+  "_id": "react-native-android-library-freshchat-sdk@2.0.0",
+  "_inBundle": false,
+  "_location": "/react-native-android-library-freshchat-sdk",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": ""
+    "raw": "react-native-android-library-freshchat-sdk@git+https://github.com/pragadeesh0106/Freshchat-android-ReactNative.git",
+    "name": "react-native-android-library-freshchat-sdk",
+    "escapedName": "react-native-android-library-freshchat-sdk",
+    "rawSpec": "git+https://github.com/pragadeesh0106/Freshchat-android-ReactNative.git",
+    "saveSpec": "git+https://github.com/pragadeesh0106/Freshchat-android-ReactNative.git",
+    "fetchSpec": "https://github.com/pragadeesh0106/Freshchat-android-ReactNative.git",
+    "gitCommittish": null
   },
-  "bugs": {
-    "url": ""
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/pragadeesh0106/Freshchat-android-ReactNative.git#d4a8a26cb19049e07b5e94e52edf10d6e0800be3",
+  "_spec": "react-native-android-library-freshchat-sdk@git+https://github.com/pragadeesh0106/Freshchat-android-ReactNative.git",
+  "_where": "/Users/pragadeeshnatarajan/Documents/native/partner",
+  "author": {
+    "name": "Shashank Vaibhav"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Freshchat library for React native. Currently it supports android only.",
   "homepage": "",
   "keywords": [
     "react-native",
     "android",
     "library"
   ],
+  "license": "Unlicense",
+  "name": "react-native-android-library-freshchat-sdk",
+  "peerDependencies": {
+    "react-native": ">=0.38.0"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
-  "peerDependencies": {
-    "react-native": ">=0.38.0"
-  }
+  "version": "2.0.0"
 }

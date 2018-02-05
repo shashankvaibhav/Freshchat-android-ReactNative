@@ -43,8 +43,9 @@ public class FreshChatSdkModule extends ReactContextBaseJavaModule {
         Freshchat.getInstance(getReactApplicationContext()).init(freshchatConfig);
 
         FreshchatUser user = Freshchat.getInstance(getReactApplicationContext()).getUser();
-        user.setFirstName(firstName).setLastName(lastName).setEmail(email).setPhone(countryCode,phone).setExternalId(userId);
+        user.setFirstName(firstName).setLastName(lastName).setEmail(email).setPhone(countryCode,phone);
         Freshchat.getInstance(getReactApplicationContext()).setUser(user);
+        Freshchat.getInstance(getReactApplicationContext()).identifyUser(userId, null);
     }
 
     @ReactMethod
@@ -54,7 +55,7 @@ public class FreshChatSdkModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void showConversations(final String filterTag) {
-        if(filterTag == null){   
+        if(filterTag == null){
             Freshchat.showConversations(getReactApplicationContext());
         }else{
             List<String> tags = new ArrayList<>();

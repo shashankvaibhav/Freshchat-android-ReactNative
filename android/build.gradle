@@ -10,6 +10,7 @@ def computeVersionName() {
 buildscript {
     repositories {
         jcenter()
+        maven { url "https://jitpack.io" }
     }
 
     dependencies {
@@ -44,5 +45,5 @@ allprojects {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile 'com.github.freshdesk:freshchat-android:1.0.0'
+    compile 'com.github.freshdesk:freshchat-android:1.3.1'
 }
