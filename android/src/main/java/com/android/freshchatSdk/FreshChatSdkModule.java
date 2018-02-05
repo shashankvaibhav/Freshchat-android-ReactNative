@@ -64,6 +64,7 @@ public class FreshChatSdkModule extends ReactContextBaseJavaModule {
             ConversationOptions convOptions = new ConversationOptions().filterByTags(tags,filterTag);
             Freshchat.showConversations(getReactApplicationContext(), convOptions);
         }
+
     }
 
     @ReactMethod
