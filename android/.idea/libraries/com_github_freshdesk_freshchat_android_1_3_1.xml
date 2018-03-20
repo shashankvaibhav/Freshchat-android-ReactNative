@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.github.freshdesk:freshchat-android-1.3.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/com.github.freshdesk/freshchat-android/1.3.1/jars/libs/freshchat.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/com.github.freshdesk/freshchat-android/1.3.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/build/intermediates/exploded-aar/com.github.freshdesk/freshchat-android/1.3.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
