@@ -49,6 +49,11 @@ public class FreshChatSdkModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
+    public void saveFreshchatToken(final String token) {
+        Freshchat.getInstance(getReactApplicationContext()).setPushRegistrationToken(token);
+    }
+
+    @ReactMethod
     public void showFAQs() {
         Freshchat.showFAQs(getReactApplicationContext());
     }

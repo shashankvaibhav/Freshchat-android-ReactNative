@@ -23,8 +23,4 @@ public class FreshChatReactPackage implements ReactPackage {
         modules.add(new FreshChatSdkModule(reactContext));
         return modules;
     }
-
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Collections.emptyList();
-    }
 }
